@@ -1,0 +1,50 @@
+.invite-link {
+    width : 100%;
+    padding-left:10px;
+    height:60px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;    
+    background-color:white;
+    line-height:40px;
+    border: 2px solid #ECECEC;
+    cursor: pointer;
+}
+
+.invite-link:hover{
+    background-color: #ECECEC;
+}
+
+.link-prop {
+    text-decoration:none;
+    padding:10px;
+    line-height:55px;
+    color:#045BE7;
+}
+
+.link-prop:hover {
+    text-decoration:none;
+    color:#045BE7;
+}
+
+.conf-content, .hack-content, .certificate-content, .volunteer-content { 
+    padding-bottom:50px;
+    height : 200px; 
+    border-top-left-radius: 10px;
+    border-left: 2px solid #ECECEC;
+    border-top: 2px solid #ECECEC;
+}
+
+.conf-img, .hack-img, .certificate-img, .volunteer-img {
+    border-top-right-radius:10px;
+    border-right: 2px solid #ECECEC;
+    border-top: 2px solid #ECECEC;
+    padding-top:10px;
+}
+
+footer {
+	width: 100%;
+	background-color:#ECECEC;
+	text-align: center;
+    height:50px;
+    padding-top:10px;
+}

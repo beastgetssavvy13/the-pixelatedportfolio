@@ -1,0 +1,44 @@
+.rectangle-icon{
+    height:auto;
+    width : 100%;
+    border: 2px solid #ECECEC;
+    border-bottom: none;
+    text-align : center;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    padding : 15px;
+}
+.blog-name{
+    height:65px;
+    width : 100%;
+    padding-left:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;    
+    background-color:white;
+    line-height:40px;
+    text-decoration: none;
+    border: 2px solid #ECECEC;
+    cursor:pointer;
+}
+.blog-name:hover {
+    background-color: #ECECEC;
+}
+
+.link-text-prop:hover {
+    text-decoration:none;
+    color:#045BE7;
+}
+.link-text-prop {
+    color:#045BE7;
+    text-decoration: none;
+    line-height:60px;
+    padding-left:10px;
+}
+
+footer {
+	width: 100%;
+	background-color:#ECECEC;
+	text-align: center;
+    height:50px;
+    padding-top:10px;
+}

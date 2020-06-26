@@ -1,0 +1,43 @@
+label {
+    transform: translate(10px, 20px);
+    padding-left : 5px;
+    padding-right : 5px;
+    background-color: white;
+    font-size : 14px
+}
+
+input, textarea {
+    border-radius: 5px;
+    border:2px solid lightgray;
+}
+input:focus, textarea:focus {
+    border-color: blue;
+}
+
+input, textarea {
+    padding : 10px;
+}
+textarea {
+    outline: none;
+    resize : none;
+}
+#submit-btn {
+    padding:5px;
+    width:50%;
+    border-radius: 5px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+footer {
+	width: 100%;
+	background-color:#ECECEC;
+	text-align: center;
+    height:50px;
+    padding-top:10px;
+}

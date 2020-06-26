@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Kavish Pandit, Kavish, Kavish4, web developer, techie">
+    <meta name="description" content="Portfolio of Kavish Pandit">
+    <meta name="author" content="Kavish Pandit">
+    <!-- For Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kavish Pandit">
+    <meta property="og:description" content="Portfolio of Kavish Pandit">
+    <!-- <meta property="og:image" content="images/fb-og- image" /> Facebook poster to be added-->
+    <meta property="og:url" content="https://nikhils4.github.io/">
+    <meta property="og:site_name" content="Kavish Pandit">
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="website">
+    <meta name="twitter:site" content="Kavish Pandit">
+    <meta name="twitter:title" content="Kavish Pandit">
+    <meta name="twitter:description" content="Portfolio of Kavish Pandit">
+    <meta name="twitter:creator" content="@nikhils_4">
+    <meta name="twitter:image" content="Kavish Pandit">
+    <meta itemprop="name" content="Kavish Pandit">
+    <meta itemprop="description" content="Portfolio of Kavish Pandit">
+    <meta itemprop="image" content="#">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/kavish.PNG">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/kavish.PNG">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/kavish.PNG">
+    <!-- Google search console -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="google-site-verification" content="5eHHk7X6SknHxGb8ZufXQVgtYSX7u_nPM78J7Ta3QoE" />
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/initials-logo.css">
+    <link rel="stylesheet" href="./styles/navbar.css" nonce>
+    <link rel="stylesheet" href="./styles/content.css" nonce>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <noscript>
+        <link rel="stylesheet" href="./styles/initials-logo.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    </noscript>
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/kavish.PNG">
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+    <script src="./scripts/analytics.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Kavish Pandit | Skills</title>
+
+    <style>
+        @media only screen and (max-width: 600px) {
+            .elemLogo {
+                margin-top: 50px;
+            }
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+            color: white;
+        }
+
+        .section-heading-container {
+            margin-top: 150px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background : white">
+        <a class="navbar-brand" href="index.html">
+            <div id="logo-top" style="padding-top:5px;">
+                <div style="border-top:4px solid #006AFF; width:72%;"></div>
+                <p style="font-family:'Courier New', Courier, monospace;font-size:30px;"><b><img
+                            src="./assets/kavish.PNG" alt="instagram" style="height:60px;"> ThePixelatedCoder™</b></p>
+            </div>
+        </a>
+        <!-- Navbar logo  -->
+        <a class="navbar-brand" href="./index.html">
+            <div class="initials-logo">
+                <div class="initials-top"></div>
+                <div class="initials">
+                    <p class="initials-shift"></p>
+                </div>
+                <div class="initials-right"></div>
+            </div>
+        </a>
+
+        <!-- Toggler button -->
+        <button style="outline: none;" id="navbar-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <div class="toggle-cover">
+                <div class="toggle-top"></div>
+                <div class="toggle-mid"></div>
+                <div class="toggle-mid"></div>
+                <div class="toggle-bottom"></div>
+            </div>
+        </button>
+
+        <!-- Navbar content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto" style="margin-right:100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">
+                        <p style="font-family:'Lucida Console', Monaco, monospace;font-size:25px;">Home</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="achievements.html">
+                        <p style="font-family:'Lucida Console', Monaco, monospace;font-size:25px;">Achievments</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="project.html">
+                        <p style="font-family:'Lucida Console', Monaco, monospace;font-size:25px;">Projects</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skill.html">
+                        <p style="font-family:'Lucida Console', Monaco, monospace;font-size:25px;">Skills</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <p style="font-family:'Lucida Console', Monaco, monospace;font-size:25px;">Coding</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="./public/Resume main.pdf">
+                        <p style="font-family:'Lucida Console', Monaco, monospace;font-size:25px;">Resume</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row section-heading-container" style="text-align:center;">
+            <div class="col-12" style="margin-bottom: 50px;">
+                <h1><b>Languages</b></h1>
+            </div>
+
+            <div class="col-1 col-lg-2"></div>
+            <div class="col-10 col-lg-8">
+                <div class="row" style="text-align:center; margin-top:40px; margin-bottom: 50px;">
+                    <div class="col-6 col-lg-3">
+                        <picture>
+                            <source srcset="./assets/javascript.webp 1x" type="image/webp">
+                            <source srcset="./assets/javascript.png  1x" type="image/jpeg">
+                            <img src="./assets/javascript.png" alt="javascript" style="max-width: 100%; height: 100px;">
+                        </picture>
+                        <h6 style="margin-top:15px;">JavaScript</h6>
+                    </div>
+                    <div class="col-6 col-lg-3 elemLogo">
+                        <picture>
+                            <source srcset="./assets/java.webp 1x" type="image/webp">
+                            <source srcset="./assets/java-logo.png  1x" type="image/jpeg">
+                            <img src="./assets/java-logo.png" alt="JAVA" style="max-width: 100%; height: 100px;">
+                        </picture>
+                        <h6 style="margin-top:15px;">JAVA</h6>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <picture>
+                            <source srcset="./assets/php.webp 1x" type="image/webp">
+                            <source srcset="./assets/php-logo.png  1x" type="image/jpeg">
+                            <img src="./assets/php-logo.png" alt="PHP" style="height:100px; max-width: 100%;">
+                        </picture>
+                        <h6 style="margin-top:15px;">PHP</h6>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <picture>
+                            <source srcset="./assets/html.webp 1x" type="image/webp">
+                            <source srcset="./assets/html-logo.png  1x" type="image/jpeg">
+                            <img src="./assets/html-logo.png" alt="HTML" style="height:100px; max-width: 100%;">
+                        </picture>
+                        <h6 style="margin-top:15px;">HTML</h6>
+                    </div>
+                    <div class="col-6 col-lg-3 elemLogo">
+                        <picture>
+                            <source srcset="./assets/css.webp 1x" type="image/webp">
+                            <source srcset="./assets/css-logo.png  1x" type="image/jpeg">
+                            <img src="./assets/css-logo.png" alt=" CSS" style="height:100px; max-width: 100%;">
+                        </picture>
+                        <h6 style="margin-top:15px;">CSS</h6>
+                    </div>
+                    <div class="col-6 col-lg-3 elemLogo">
+                        <picture>
+                            <source srcset="./assets/r.webp 1x" type="image/webp">
+                            <source srcset="./assets/r.webp 1x  1x" type="image/jpeg">
+                            <img src="./assets/r.webp" alt="CSS" style="height:100px; max-width: 100%;">
+                        </picture>
+                        <h6 style="margin-top:15px;">R</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 col-lg-2"></div>
+
+
+
+            <div class="row section-heading-container" style="text-align:center;">
+                <div class="col-12" style="margin-bottom: 50px;">
+                    <h1><b>Technologies</b></h1>
+                </div>
+
+                <div class="col-1 col-lg-2"></div>
+                <div class="col-10 col-lg-8">
+                    <div class="row" style="text-align:center; margin-top:40px; margin-bottom: 50px;">
+                        <div class="col-6 col-lg-3">
+                            <picture>
+                                <source srcset="./assets/git.webp 1x" type="image/webp">
+                                <source srcset="./assets/git-logo.png 1x  1x" type="image/jpeg">
+                                <img src="./assets/git.webp" alt="Git" style="max-width: 100%; height: 100px;">
+                            </picture>
+                            <h6 style="margin-top:15px;">Git</h6>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <picture>
+                                <source srcset="./assets/githubfinder.webp 1x" type="image/webp">
+                                <source srcset="./assets/github-logo.png 1x" type="image/jpeg">
+                                <img src="./assets/githubfinder.webp" alt="GitHub"
+                                    style="max-width: 100%; height: 100px;">
+                            </picture>
+                            <h6 style="margin-top:15px;">GitHub</h6>
+                        </div>
+                        <div class="col-6 col-lg-3 elemLogo">
+                            <picture>
+                                <source srcset="./assets/postman.webp 1x" type="image/webp">
+                                <source srcset="./assets/postman.png 1x  1x" type="image/jpeg">
+                                <img src="./assets/postman.webp" alt="postman" style="max-width: 100%; height: 100px;">
+                            </picture>
+                            <h6 style="margin-top:15px;">Postman</h6>
+                        </div>
+                        <div class="col-6 col-lg-3 elemLogo">
+                            <picture>
+                                <source srcset="./assets/mongodb.webp 1x" type="image/webp">
+                                <source srcset="./assets/mongodb-logo.png 1x  1x" type="image/jpeg">
+                                <img data-aos="zoom-in" src="./assets/mongodb-logo.png" alt="MongoDB"
+                                    style="max-width: 100%; height: 100px;">
+                            </picture>
+                            <h6 style="margin-top:15px;">MongoDB</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 col-lg-2"></div>
+
+                <div class="col-1 col-lg-2"></div>
+                <div class="col-10 col-lg-8">
+                    <div class="row" style="text-align:center; margin-top:40px; margin-bottom: 50px;">
+                        <div class="col-6 col-lg-3">
+                            <picture>
+                                <source srcset="./assets/mysql-logo.svg 1x" type="image/webp">
+                                <source srcset="./assets/mysql-logo.svg 1x" type="image/jpeg">
+                                <img data-aos="zoom-in" src="./assets/mysql-logo.svg" alt="MySQL"
+                                    style="height:100px; max-width: 100%;">
+                            </picture>
+                            <h6 style="margin-top:15px;">MySQL</h6>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <picture>
+                                <source srcset="./assets/angular.webp 1x" type="image/webp">
+                                <source srcset="/assets/angular.png 1x" type="image/jpeg">
+                                <img data-aos="zoom-in" src="./assets/angular.png" alt="Angular-js"
+                                    style="height:100px; max-width: 100%;">
+                            </picture>
+                            <h6 style="margin-top:15px;">Angular Js</h6>
+                        </div>
+                        <div class="col-6 col-lg-3 elemLogo">
+                            <picture>
+                                <source srcset="./assets/nodejs.webp 1x" type="image/webp">
+                                <source srcset="./assets/nodejs-logo.png 1x" type="image/jpeg">
+                                <img src="./assets/nodejs-logo.png" alt="NodeJS" style="height:100px; max-width: 100%;">
+                            </picture>
+                            <h6 style="margin-top:20px;color: white">NodeJS</h6>
+                        </div>
+                        <div class="col-6 col-lg-3 elemLogo">
+                            <picture>
+                                <source srcset="./assets/firebase.webp 1x" type="image/webp">
+                                <source srcset="./assets/firebase.png 1x" type="image/jpeg">
+                                <img src="./assets/firebase.png" alt="Firebase" style="height:100px; max-width: 100%;">
+                            </picture>
+                            <h6 style="margin-top:15px;">Firebase</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 col-lg-2"></div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 style="color: white;"><b>Frame Works</b></h1>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 30px;">
+
+                    <div class="col-6 col-lg-4">
+                        <picture>
+                            <source srcset="./assets/bootstrap.webp 1x" type="image/webp">
+                            <source srcset="./assets/bootstrap-logo.png 1x" type="image/jpeg">
+                            <img src="./assets/bootstrap-logo.png" alt="Bootstrap"
+                                style="height:100px; max-width: 100%;">
+                        </picture>
+                        <h6 style="margin-top:20px;color: white">Bootstrap</h6>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <picture>
+                            <source srcset="./assets/express.webp 1x" type="image/webp">
+                            <source srcset="./assets/express.png 1x" type="image/jpeg">
+                            <img src="./assets/express.png" alt="Materialize" style="height:100px; max-width: 100%;">
+                        </picture>
+                        <h6 style="margin-top:20px;color: white">Express Js</h6>
+                    </div>
+                    <div class="col-6 col-lg-4 ">
+                        <picture>
+                            <source srcset="./assets/nodejs.webp 1x" type="image/webp">
+                            <source srcset="./assets/nodejs-logo.png 1x" type="image/jpeg">
+                            <img src="./assets/nodejs-logo.png" alt="NodeJS" style="height:100px; max-width: 100%;">
+                        </picture>
+                        <h6 style="margin-top:20px;color: white">NodeJS</h6>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <footer style="background-color:black;font-size:20px;">
+            <p style="text-align: center;color:white;">&copy;</p>
+            <p style="text-align:center;color:white;font-family:'Lucida Console', Monaco, monospace;font-size:20px;">
+                2020 | Kavish Pandit | ThePixelatedCoder™ | <a
+                    href="https://github.com/beastgetssavvy13?tab=repositories"> Github
+                    Link</p>
+            </a>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./scripts/navbar.js" async></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"
+            async></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"
+            async></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+</body>
+
+</html>
